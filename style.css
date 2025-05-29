@@ -31,7 +31,8 @@ header {
 }
 
 .produto img {
-  width: 100%;
+  width: 200px;
+  height: 180px;
   border-radius: 5px;
 }
 
