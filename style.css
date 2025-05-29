@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #e98298;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.produto {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  width: 200px;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+button {
+  background: #e98298;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+button:hover {
+  background: #d4526f;
+}
